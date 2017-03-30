@@ -1,26 +1,27 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Grayscale](http://startbootstrap.com/template-overviews/grayscale/)
+# [DesaOS Page]
 
-[Grayscale](http://startbootstrap.com/template-overviews/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template features various content sections and a Google Maps section with a custom map marker.
+[DesaOS Page] Dibuat dengan Framework [MaterializeCSS](http://materializecss.com/) dengan warna dominan yakni Hijau, karena melambangkan desa-desa dimana yang identik dengan persawahannya yang luas.
 
-## Getting Started
+## Ikut Mengembangkan
 
-To use this template, choose one of the following options to get started:
-* Download the latest release on Start Bootstrap
-* Fork this repository on GitHub
+Anda juga bisa terlibat langsung untuk mempercantik Halaman DesaOS ini bahkan juga bisa Mendownloadnya dengan cara:
+* Download via ZIP, atau
+* Fork via GitHub
 
-## Bugs and Issues
+## Melaporkan Bug atau Masalah
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-grayscale/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/grayscale/).
+Mempunyai bug atau masalah pada saat menggunakan DesaOS? [Laporkan Bug dan Masalah Penggunaan DesaOS](https://github.com/DesaOS/desaos.github.io/issues).
 
-## Creator
+## Pengembang
 
-Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
+Template ini dibuat oleh **Razaqul Tegar**, Leader Team dari DesaOS.
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+* https://facebook.com/razaqultegar
+* https://twitter.com/tegarrazaqul
+* https://github.com/razaqultegar
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+Framework [MaterializeCSS](http://materializecss.com/) Dibuat Oleh [Alvin Wang](https://github.com/Dogfalo).
 
-## Copyright and License
+## Lisensi
 
-Copyright 2013-2017 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-full-width-pics/blob/gh-pages/LICENSE) license.
+Copyright 2017 DesaOS Developer. Source Code menggunakan lisensi [GPL v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
