@@ -1,164 +1,159 @@
 <!DOCTYPE html>
-<html lang="en">
+  <html>
+    <head>
+      <!--Let browser know website is optimized for mobile-->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="vendor/css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+      <link rel="icon" href="img/favicon.ico">
+      <title>DesaOS - Distro Linux Indonesia</title>
+    </head>
 
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Grayscale - Start Bootstrap Theme</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
-    <!-- Theme CSS -->
-    <link href="css/grayscale.min.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i> <span class="light">Start</span> Bootstrap
-                </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#download">Download</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+      <!-- Navbar -->
+      <ul id="about" class="dropdown-content">
+        <li><a href="#!" style="color: #27AE60;">Tentang DesaOS</a></li>
+        <li><a href="#!" style="color: #27AE60;">Team</a></li>
+        <li><a href="#!" style="color: #27AE60;">Dukungan</a></li>
+        <li><a href="#!" style="color: #27AE60;">Disclamer & License</a></li>
+      </ul>
+      <ul id="community" class="dropdown-content">
+        <li><a href="#!" style="color: #27AE60;">Facebook Grup</a></li>
+        <li><a href="#!" style="color: #27AE60;">Telegram</a></li>
+      </ul>
+      <nav style="background-image: url(img/bg-nav.png);">
+        <div class="nav-wrapper container">
+          <a href="index.html" class="brand-logo">DesaOS</a>
+          <ul class="right hide-on-med-and-down">
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-button" href="#!" data-activates="community" data-beloworigin="true">Komunitas<i class="mdi-navigation-arrow-drop-down right"></i></a></li>
+            <li><a class="dropdown-button" href="#!" data-activates="about" data-beloworigin="true">Tentang<i class="mdi-navigation-arrow-drop-down right"></i></a></li>
+            <li><a href="download.html">Download</a></li>
+            <li><a href="#1">Donasi</a></li>
+          </ul>
         </div>
-        <!-- /.container -->
-    </nav>
+      </nav>
 
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Grayscale</h1>
-                        <p class="intro-text">A free, responsive, one page Bootstrap theme.
-                            <br>Created by Start Bootstrap.</p>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-                    </div>
-                </div>
+      <!-- Intro -->
+      <div id="index-banner" class="parallax-container">
+        <div class="section no-pad-bot">
+          <div class="container">
+            <br><br>
+            <h1 class="header center">DesaOS</h1>
+            <div class="row center">
+              <h5 class="header col s12 light">Salah satu Distro Linux Indonesia, yang dikembangkan oleh<br>Yayasan Gedhe Nusantara.<br>Dan telah menjadi Produk Kebanggaan Warga Desa di Indonesia.</h5>
             </div>
+            <div class="row center">
+              <a href="download.html" id="download-button" class="btn-large" style="background-color: #27AE60;">Unduh DesaOS</a>
+            </div>
+            <br><br>
+          </div>
         </div>
-    </header>
+        <div class="parallax"><img src="img/banner.png" style="position: center;"></div>
+      </div>
 
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center">
+      <!-- About -->
+      <div style="background-color: #f9f9f9; padding-top: 20px;">
+      <div class="container">
+      <div class="section">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>About Grayscale</h2>
-                <p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-                <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
-                <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
-            </div>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <center><img src="img/about.png"/></center>
+            <h5 class="center primary">Tentang</h5>
+
+            <p class="light">DesOS adalah distribusi Linux berdasarkan pada sistem operasi Ubuntu dikembangkan secara mandiri. DesaOS memberikan semua manfaat dari sistem operasi Ubuntu dikombinasikan dengan fokus pada user-keramahan dan aksesibilitas.</p>
+            <a class="btn" style="background-color: #27AE60;">Selengkapnya</a>
+          </div>
         </div>
-    </section>
 
-    <!-- Download Section -->
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
-                </div>
-            </div>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <center><img src="img/team.png"/></center>
+            <h5 class="center primary">Mari Berkontribusi!</h5>
+
+            <p class="light">Luangkan waktu luang Anda, untuk bergabung bersama kami dalam membangun DesaOS. Tidak perlu mempunyai keahlian khusus namun paham akan dasar Sistem Operasi Linux. Jika bersedia untuk berikut serta dalam Project ini, silahkan kirim lewat Email.</p>
+            <a class="btn" style="background-color: #27AE60;">Selengkapnya</a>
+          </div>
         </div>
-    </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Start Bootstrap</h2>
-                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
-                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
-                    </li>
-                </ul>
-            </div>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <center><img src="img/donate.png"/></center>
+            <h5 class="center primary">Berikan Donasi</h5>
+
+            <p class="light">Bagi Anda yang ingin membantu kelancaran Projek DesaOS dengan memberikan Donasi atau Sumbangan lainnya, kami sangat berterima kasih karena Anda sudah termasuk bagian dari DesaOS. Info lebih lanjut bisa kirim lewat Email atau mengobrol via Telegram.</p>
+            <a class="btn" style="background-color: #27AE60;">Selengkapnya</a>
+          </div>
         </div>
-    </section>
-
-    <!-- Map Section -->
-    <div id="map"></div>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <p>Copyright &copy; Your Website 2016</p>
         </div>
-    </footer>
+        </div>
+      </div>
+    </div><br><br>
 
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.js"></script>
+    <!-- Thanks -->
+    <div class="container">
+      <center><h3 class="primary">Didukung Oleh:</h3></center><br>
+      <div class="section">
+        <div class="row center">
+          <div class="col s12 m6 l3"><img src="img/desamembangun.png" alt="Desa Membangun" style="width: 100%;" /></div>
+          <div class="col s12 m6 l3"><img src="img/gedhe.jpeg" alt="Desa Membangun" /></div>
+          <div class="col s12 m6 l3"><img src="img/rtik.png" alt="Relawan TIK Banyumas"/></div>
+          <div class="col s12 m6 l3"><img src="img/migrasilinux.png" alt="Migrasi Linux"/></div>
+        </div><br>
+        <div class="center">
+          <a class="btn" style="background-color: #27AE60;">Lihat Semua</a>
+        </div>
+      </div>
+    </div><br><br>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <!-- Footer -->
+  <footer class="page-footer" style="background-image: url(img/banner.png); background-position: center;">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6 l3">
+          <h5 class="primary">DesaOS</h5>
+        </div>
+        <div class="col s12 m6 l3">
+          <h5 class="primary">Link DesaOS</h5><hr>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">Blog</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Developer</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Ebook</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Forum</a></li>
+            </ul>
+        </div>
+        <div class="col s12 m6 l3">
+          <h5 class="primary">Laman</h5><hr>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">Tentang</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Download</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Donasi</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Kontak</a></li>
+            </ul>
+        </div>
+        <div class="col s12 m6 l3">
+          <h5 class="primary">Sekretariat DesaOS</h5><hr>
+            <p style="color: white;">Diamond Residence C43
+              Desa Kalibagor, Kecamatan Kalibagor
+              Kab. Banyumas – Jawa Tengah<br>+62 822 2648 4444</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright" style="background-color: #3e3e3f; color: white; font-size: 16px;">
+      <div class="container">
+        &copy; 2017 COPYRIGHT DESAOS LINUX - DISCLAIMER
+      </div>
+    </div>
+  </footer>
 
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/grayscale.min.js"></script>
-
-</body>
-
-</html>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="vendor/js/materialize.min.js"></script>
+      <script src="js/init.js"></script>
+    </body>
+  </html>

@@ -1,0 +1,53 @@
+h1{
+  color: #27AE60;
+}
+
+h5{
+  color: white;
+}
+
+p{
+  text-align: justify;
+}
+
+.primary{
+  color: #27AE60;
+}
+
+.list-content{
+  background: url(img/list-arrow.png) no-repeat 0 11px;
+  padding: 7px 0 7px 24px;
+  list-style: none;
+  text-align: left;
+}
+
+.dropdown-content {
+  background-color: #3E3E3F;
+  margin: 0;
+  display: none;
+  min-width: 200px; /* Changed this to accomodate content width */
+  max-height: auto;
+	margin-left: -1px; /* Add this to keep dropdown in line with edge of navbar */
+  overflow: hidden; /* Changed this from overflow-y:auto; to overflow:hidden; */
+  opacity: 0;
+  position: absolute;
+  white-space: nowrap;
+  z-index: 1;
+  will-change: width, height;
+}
+
+.parallax-container{
+ height: 600px;
+}
+
+.page{
+  width: 100%;
+  height: 100px;
+  background-image: url(img/banner.png);
+}
+
+.page-title{
+  color: white;
+  font-size: 28px;
+  text-align: center;
+}
