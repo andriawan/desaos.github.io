@@ -1,6 +1,6 @@
-# [DesaOS Page]
+# DesaOS Page
 
-[DesaOS Page] Dibuat dengan Framework [MaterializeCSS](http://materializecss.com/) dengan warna dominan yakni Hijau, karena melambangkan desa-desa dimana yang identik dengan persawahannya yang luas.
+DesaOS Page Dibuat dengan Framework [MaterializeCSS](http://materializecss.com/) dengan warna dominan yakni Hijau, karena melambangkan desa-desa dimana yang identik dengan persawahannya yang luas.
 
 ## Ikut Mengembangkan
 
